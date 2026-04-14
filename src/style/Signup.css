@@ -1,0 +1,109 @@
+
+.ff {
+  min-height: 100vh;
+      background: linear-gradient(135deg, #667eea, #a8a2ad);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ff form {
+  background: #ffffff;
+  width: 420px;
+  padding: 28px 32px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.ff h1 {
+  text-align: center;
+  margin-bottom: 22px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.ff form > div {
+  margin-bottom: 14px;
+}
+
+/* ===== Labels ===== */
+.ff label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #374151;
+  font-weight: 500;
+}
+
+/* Required star */
+.ff span {
+  color: red;
+}
+
+/* ===== Inputs ===== */
+.ff input[type="text"],
+.ff input[type="password"],
+.ff input[type="email"] {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.ff input:focus {
+  border-color: #6366f1;
+}
+
+/* ===== GENDER FLEX (IMPORTANT FIX) ===== */
+
+/* Container holding both radio options */
+.gender-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-top: 6px;
+}
+
+/* Each radio + label */
+.gender-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  color: #374151;
+  cursor: pointer;
+}
+
+/* Radio button */
+.gender-item input[type="radio"] {
+  cursor: pointer;
+}
+
+/* ===== Button ===== */
+.signup-b {
+  width: 100%;
+  padding: 11px;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 12px;
+}
+
+.signup-b:hover {
+  background: #4f46e5;
+}
+
+/* ===== Mobile ===== */
+@media (max-width: 480px) {
+  .ff form {
+    width: 90%;
+    padding: 24px;
+  }
+}

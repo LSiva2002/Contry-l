@@ -1,0 +1,31 @@
+/* navbar.css */
+
+#ww {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #1f2937; /* dark navbar */
+  gap: 15px;
+}
+
+#ww button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #3b82f6; /* blue button */
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#ww button:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+#ww button:active {
+  transform: scale(0.98);
+}

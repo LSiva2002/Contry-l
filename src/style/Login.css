@@ -1,0 +1,85 @@
+
+.lo {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #a8a2ad);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.lo form {
+  background: #ffffff;
+  padding: 30px 35px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.lo h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.lo form div {
+  margin-bottom: 15px;
+}
+
+.lo label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #444;
+}
+
+.lo label span {
+  color: red;
+}
+
+.lo input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+.lo input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px rgba(102, 126, 234, 0.5);
+}
+
+.lo form div:last-child {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.lo button {
+  width: 48%;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.lo button[type="submit"] {
+  background: #667eea;
+  color: #fff;
+}
+
+.lo button[type="button"] {
+  background: #f1f1f1;
+  color: #333;
+}
+
+.lo button:hover {
+  opacity: 0.9;
+}

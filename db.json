@@ -1,0 +1,59 @@
+{
+  "user": [
+    {
+      "id": "aaa",
+      "fullname": "aaa",
+      "password": "aaaaaa",
+      "email": "siva8056097646@gmail.com",
+      "gender": "male"
+    },
+    {
+      "id": "sss",
+      "fullname": "siva L",
+      "password": "ssssss",
+      "email": "siva8056097646@gmail.com",
+      "gender": "male"
+    },
+    {
+      "id": "alice",
+      "fullname": "Siva L",
+      "password": "asdfghjkl",
+      "email": "siva8056097646@gmail.com",
+      "gender": "male"
+    }
+  ],
+  "contry_list": [
+    {
+      "id": "f91a",
+      "contryName": "India",
+      "code": "001",
+      "currency": "Rupees",
+      "phonePrefix": "+91",
+      "active": true
+    },
+    {
+      "id": "823c",
+      "contryName": "USA",
+      "code": "002",
+      "currency": "Dollar",
+      "phonePrefix": "+1",
+      "active": true
+    },
+    {
+      "id": "649c",
+      "contryName": "Canada",
+      "code": "003",
+      "currency": "CAD",
+      "phonePrefix": "+1",
+      "active": true
+    },
+    {
+      "id": "accf",
+      "contryName": "Japan",
+      "code": "004",
+      "currency": "yen",
+      "phonePrefix": "+81",
+      "active": true
+    }
+  ]
+}
